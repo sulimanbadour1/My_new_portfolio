@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+// import Fighter from "./Fighter/Fighter";
 
 const Hero = () => {
   return (
@@ -20,15 +21,21 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915eff]">Suliman</span>
           </h1>
           <p
-            className={`${styles.heroSubText} mt-2 text-white-100 dark:text-gray-700`}
+            className={`${styles.heroSubText} mt-2 mb-12 z-10 text-white-100 dark:text-gray-700`}
           >
             I am a front-end developer <br className="sm:block hidden" /> a
             product designer and a design engineer.
           </p>
         </div>
       </div>
+
       <ComputersCanvas />
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+
+      {/* <div className=" xs:bottom-24 xs:flex flex-col xs:justify-center xs:items-center absolute right-1/4  ">
+        <Fighter />
+      </div> */}
+
+      <div className="absolute xs:bottom-12 bottom-12 w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2 dark:border-white">
             <motion.div

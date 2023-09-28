@@ -5,8 +5,8 @@ Dockerfile*
 .dockerignore*
 public/newpc23/screenfinal.gltf*
 public*    
-
-
+retro terminal*
+Fighter*
 
 # Logs
 logs
