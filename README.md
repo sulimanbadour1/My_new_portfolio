@@ -1,4 +1,4 @@
-<h1>My new portfolio created with #vite and #threejs<h1>
+<h1>My new portfolio created with #vite, #threejs and Tailwind css.<h1>
 
 [Visit the website](https://sulimanbadour.com)
 
