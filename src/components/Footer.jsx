@@ -27,7 +27,7 @@ const Footer = ({ theme }) => {
       </div>
 
       <p className="flex flex-col text-white items-center justify-center dark:text-[#8954fb]">
-        All right reserved 2023 &copy;
+        All rights reserved 2023 &copy;
       </p>
       <p className="flex flex-col text-white items-center justify-center dark:text-[#a37ff0]">
         Suliman Badour
