@@ -65,7 +65,8 @@ import sun from "./darkmode/sun.png";
 import purplelinkedin from "./linkedinpurple.png";
 import emailpink from "./emailpink.png";
 import githubpink from "./githubpink.png";
-
+// little lemon icons
+import littlelemon from "./folio/lemon.png";
 export {
   purplelinkedin,
   emailpink,
@@ -124,4 +125,5 @@ export {
   design,
   credly,
   metacredly,
+  littlelemon,
 };

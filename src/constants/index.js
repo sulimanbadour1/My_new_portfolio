@@ -16,24 +16,14 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   github,
   shirt,
   northface,
-  eurovr,
   jobook,
   fittime,
   tenso,
   tripteron,
-  youtube,
-  behance,
   email,
   kazanexpress,
   provectus,
@@ -47,6 +37,7 @@ import {
   githubpink,
   purplelinkedin,
   emailpink,
+  littlelemon,
 } from "../assets";
 
 import linkedin from "../assets/linkedin.png";
@@ -244,6 +235,27 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Little Lemon Restaurant",
+    description:
+      "A full responsive website for a restaurant in Prague, which allows users to browse the menu, reserve a table  order and checkout. Also, it has a dashboard for the restaurant owner to manage orders and reservations.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: littlelemon,
+    source_code_link: "https://github.com/sulimanbadour1/Meta_Capstone_Project",
+  },
+  {
     name: "Shirt Store AI",
     description:
       "Web-based platform that allows users to create and share their own custom t-shirt designs using DALL.E, change colors to save thier own choosen design, and order them for printing and delivery.",
@@ -309,7 +321,7 @@ const projects = [
   {
     name: "The North Face App",
     description:
-      "A e-commerce mobile app for the brand The North Face, which allows users to browse the latest products, order and checkout.",
+      "A e-commerce mobile app for the brand The North Face, which allows users to browse the latest products, order and checkout. Also, It allow tracking the order and get notifications. and share the products with friends.",
     tags: [
       {
         name: "UI/UX",
@@ -331,7 +343,7 @@ const projects = [
   {
     name: "Fit Time",
     description:
-      "A mobile app for fitness, which connects between trainers and trainees, allowing users to book a session with a trainer.",
+      "A mobile app for fitness, which connects between trainers and trainees, allowing users to book a session with a trainer. allow trainers to manage their sessions and trainees to track their progress.",
     tags: [
       {
         name: "UI",
